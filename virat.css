@@ -1,0 +1,47 @@
+body {
+  background-image: url(plain.jpeg);
+}
+header {
+  margin-top: 10px;
+  margin-left: 43%;
+}
+h1 {
+  color: slategrey;
+  font-style: oblique;
+}
+h3 {
+  color: slateblue;
+  font-style: italic;
+  font-size: large;
+}
+h2 {
+  color: darkcyan;
+}
+h6 {
+  color: blue;
+  margin-top: 10px;
+}
+
+img {
+  margin: 10px;
+}
+video,
+iframe {
+  margin: 20px;
+}
+
+.flex-center-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+.width-80 {
+  width: 80%;
+}
+.text-center {
+  text-align: center;
+}
